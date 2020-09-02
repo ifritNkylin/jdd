@@ -713,7 +713,7 @@ var jdd = {
 
         $('#prevNextLabel').text((jdd.currentDiff + 1) + ' of ' + (jdd.diffs.length));
 
-        if (jdd.currentDiff === 1) {
+        if (jdd.currentDiff === 0) {
             $('#prevButton').addClass('disabled');
         } else if (jdd.currentDiff === jdd.diffs.length - 1) {
             $('#nextButton').addClass('disabled');
